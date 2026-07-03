@@ -27,7 +27,7 @@ const initShare = () => {
 
   // Function: закрывает панель Share
   // Accepts: ничего
-  // Returns: nичего
+  // Returns: ничего
   const closeSharePanel = () => {
     sharePanel.setAttribute('hidden', '');
     sharePanel.classList.remove('card__share-panel--visible');
