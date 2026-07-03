@@ -1,29 +1,25 @@
 @use 'variables';
 
-// Миксин: медиа-запрос для планшета (768px+)
 @mixin tablet {
   @media (min-width: variables.$breakpoint-tablet) {
     @content;
   }
 }
 
-// Миксин: медиа-запрос для десктопа (1024px+)
 @mixin desktop {
   @media (min-width: variables.$breakpoint-desktop) {
     @content;
   }
 }
 
-// Миксин: визуально скрытый текст (доступен скринридерам)
-// Используем на этапе 1 для кнопки Share
 @mixin visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
+  border: 0;
+  padding: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  border: 0;
 }
