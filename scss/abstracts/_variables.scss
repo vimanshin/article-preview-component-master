@@ -1,0 +1,23 @@
+// Дизайн-токены проекта (значения из Figma + style-guide)
+
+// --- Цвета ---
+$color-grey-900: #48556a; // заголовки, имя автора, тёмная панель Share
+$color-grey-500: #6e8098; // основной текст статьи
+$color-grey-400: #9daec2; // дата, надпись «SHARE»
+$color-grey-200: #ecf2f8; // фон страницы, кнопка Share (default)
+$color-white: #ffffff;    // фон карточки
+
+// --- Типографика ---
+$font-family-base: 'Manrope', sans-serif;
+$font-size-base: 0.8125rem;    // 13px
+$font-size-heading: 1.25rem;   // 20px
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// --- Брейкпоинты (mobile-first) ---
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+// --- Карточка (пригодится на этапах 2–4) ---
+$border-radius-card: 10px;
+$shadow-card: 0 40px 20px rgba(201, 213, 225, 0.5);

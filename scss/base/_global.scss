@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+
+// Стили страницы: фон, шрифт, центрирование контента
+body {
+  min-height: 100vh;
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-base;
+  font-weight: variables.$font-weight-medium;
+  line-height: 1.4;
+  color: variables.$color-grey-500;
+  background-color: variables.$color-grey-200;
+}
+
+// Обёртка страницы — карточка будет по центру (этап 1+)
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem; // 24px — отступы по краям на узких экранах
+}
