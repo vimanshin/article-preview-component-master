@@ -1,0 +1,19 @@
+{
+  "name": "article-preview-component-master",
+  "version": "1.0.0",
+  "description": "Это решение задания [«Компонент превью статьи» на Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Задания Frontend Mentor помогают прокачать навыки фронтенд-разработки на реалистичных проектах.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch scss/main.scss:css/style.css",
+    "sass:build": "sass scss/main.scss css/style.css --style=compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.101.0",
+    "stylelint": "^17.14.0"
+  }
+}
